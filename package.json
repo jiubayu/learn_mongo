@@ -1,0 +1,20 @@
+{
+  "name": "lego_mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/ioredis": "^5.0.0",
+    "mongodb": "^6.5.0"
+  },
+  "devDependencies": {
+    "egg-redis": "^2.6.0",
+    "ioredis": "^5.4.1"
+  }
+}
