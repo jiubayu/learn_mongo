@@ -2,7 +2,7 @@ name: github-actions lego
 on: [push]
 jobs:
   Check-ithub-Actions: 
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "triggered by a ${{ github.event_name }} event"
       - run: echo "running on a ${{ runner.os }} server hosted by Github"
